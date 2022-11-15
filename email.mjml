@@ -1,0 +1,649 @@
+<mjml>
+  <mj-head>
+    <mj-preview>Welcome to Massdriver!</mj-preview>
+    <mj-title>Welcome to Massdriver!</mj-title>
+    <mj-font name="Poppins" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" />
+    <mj-attributes>
+      <mj-all padding="0" margin="0" font-family="Poppins, Arial" font-style="normal" />
+      <mj-class name="header-btn" font-family="Poppins" background-color="transparent" color="white" font-weight="600" font-size="19px" padding="16px 20px" border="2px solid #ffffff">
+        <mj-class name="body-btn" font-family="Poppins" background-color="linear-gradient(92.26deg, #3D8BE2 0.97%, #58A4F1 99.39%)" color="white" font-weight="600" font-size="30px" padding="16px 20px" border="2px solid #ffffff">
+    </mj-attributes>
+    <mj-style>
+      @media only screen and (max-width:480px) {
+
+        .statistics-title,
+        .statistics-text {
+          text-align: center;
+        }
+      }
+
+      @media only screen and (max-width: 430px) {
+        .description-section {
+          padding-left: 32px !important;
+          padding-right: 32px !important;
+        }
+      }
+
+      @media only screen and (max-width:360px) {}
+
+      /* TYPOGRAPHY */
+      a {
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 15px;
+        color: #388DCE;
+      }
+
+      .h1 {
+        font-weight: 600;
+        font-size: 47px;
+        line-height: 122%;
+        text-align: center;
+        margin: 0;
+        color: #FFFFFF;
+      }
+
+      .h2 {
+        font-weight: 600;
+        font-size: 45px;
+        line-height: 122%;
+        text-align: center;
+        margin: 0;
+        color: #FFFFFF;
+      }
+
+      .hero-text {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+      }
+
+      .body-text,
+      a.description-link {
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 28px;
+        text-align: center;
+        color: #000000;
+      }
+
+      a.description-link {
+        color: #5288C4;
+      }
+
+      .subtitle {
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 122%;
+        text-align: center;
+        color: #000000;
+      }
+
+      .cta-text {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 193%;
+        text-align: center;
+        color: #FFFFFF;
+      }
+
+      .statistics-title {
+        font-weight: 700;
+        font-size: 47px;
+        color: #5288C4;
+        margin: 0;
+        margin-top: 32px;
+      }
+
+      .statistics-text {
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 28px;
+        color: #000000;
+      }
+
+      .statistics-caption {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22.5px;
+        color: #000000;
+        text-align: center !important;
+        padding: 16px 10px;
+      }
+
+      .footer-text {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 15px;
+        color: #000000;
+      }
+
+      /* HERO ELEMENTS */
+
+      .section {
+        padding-left: 32px;
+        padding-right: 32px;
+      }
+
+      .description-section {
+        padding-left: 86px;
+        padding-right: 86px;
+      }
+
+      .title-wrap {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        background: linear-gradient(126.95deg, #19406D 0%, #3E9DE1 79.84%);
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body>
+    <mj-wrapper background-color="#FFFFFF">
+
+      <!-- HERO -->
+      <mj-section css-class="section" background-color="#5288C4" background-url="assets/hero-bg.png" background-size="cover">
+
+        <mj-column width="100%">
+          <mj-spacer height="24px" />
+          <mj-image width="110px" src="assets/logo.png" />
+          <mj-spacer height="60px" />
+          <mj-text>
+            <h1 class="h1">
+              Redesigning Hospitality
+            </h1>
+            <p class="hero-text">
+              Automatize your hotel & vacation rental business with modern full <br>
+              cloud hotel & property management system developed by industry <br>
+              professional.
+            </p>
+          </mj-text>
+          <mj-button mj-class="header-btn" href="https://go.otasync.me/ue2Jb">
+            Start Your Free 14 Days Trial
+          </mj-button>
+          <mj-spacer height="100px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Description -->
+      <mj-section css-class="description-section">
+        <mj-column width="100%">
+          <mj-spacer height="36px" />
+          <mj-text>
+            <p class="body-text">
+              Hi ,
+              <br>
+              <br>
+              I hope this note finds you well.
+              <br>
+              <br>
+              I am the partnership manager in a company called <a class="description-link" href="https://go.otasync.me/ue2Jd">OTA Sync</a>
+              which specializes in hotel and property management systems.
+            </p>
+          </mj-text>
+          <mj-spacer height="60px" />
+          <mj-text>
+            <p class="body-text">
+              In thinking about your role at ,
+              I thought there might be a good fit for your group.
+              <br>
+              <br>
+              <a class="description-link" href="https://go.otasync.me/ue2Jf">Our property management solution</a> and
+              <a class="description-link" href="https://go.otasync.me/ue2Jg">booking engine</a>
+              have created a lot of attention in the public recently
+              and I think it’s something that your organization
+              might see immediate value in.
+            </p>
+          </mj-text>
+          <mj-spacer height="60px" />
+          <mj-text>
+            <p class="body-text">
+              Are you free in the upcoming days for a quick call,
+              where I can introduce myself and show you our solution?
+              <br>
+              <br>
+              You can also book a meeting whenever it suits you
+              - <a class="description-link" href="https://go.otasync.me/ue2Jh">directly on this link.</a>
+            </p>
+          </mj-text>
+          <mj-spacer height="70px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Title 0 -->
+      <mj-section css-class="section title-wrap">
+        <mj-column>
+          <mj-text>
+            <h1 class="h1">
+              Who are we?
+            </h1>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Statistics -->
+      <mj-section css-class="section statistics" padding-top="64px">
+        <mj-column>
+          <mj-text>
+            <h1 class="statistics-title">
+              15
+            </h1>
+            <p class="statistics-text">
+              Countries
+            </p>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text>
+            <h1 class="statistics-title">
+              15
+            </h1>
+            <p class="statistics-text">
+              Languages
+            </p>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text>
+            <h1 class="statistics-title">
+              1500+
+            </h1>
+            <p class="statistics-text">
+              Global users
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section css-class="section statistics">
+        <mj-column>
+          <mj-text>
+            <h1 class="statistics-title">
+              30.000+
+            </h1>
+            <p class="statistics-text">
+              Countries
+            </p>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text>
+            <h1 class="statistics-title">
+              1.000.000+
+            </h1>
+            <p class="statistics-text">
+              Processed bookings
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section css-class="section statistics-image" padding-top="70px" padding-bottom="60px">
+        <mj-column>
+          <mj-image width="600px" src="assets/statistics1.png" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Title 1 -->
+      <mj-section css-class="section title-wrap">
+        <mj-column>
+          <mj-text>
+            <h1 class="h2">
+              Property Management <br> System (PMS)
+            </h1>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Features-text -->
+      <mj-section css-class="section">
+        <mj-column>
+          <mj-spacer height="24px" />
+          <mj-text>
+            <p class="body-text">
+              More tasks done with less clicks
+            </p>
+          </mj-text>
+          <mj-spacer height="32px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Features -->
+      <mj-section css-class="section">
+        <mj-column>
+          <mj-image width="65px" height="68px" src="assets/f-icons/f1.png" />
+          <mj-text>
+            <p class="statistics-caption">
+              The most advanced hotel and property management solution on the market
+            </p>
+          </mj-text>
+        </mj-column>
+
+        <mj-column>
+          <mj-image width="85px" height="68px" src="assets/f-icons/f2.png" />
+          <mj-text>
+            <p class="statistics-caption">
+              Complete control
+              in single
+              dashboard
+            </p>
+          </mj-text>
+        </mj-column>
+
+        <mj-column>
+          <mj-image width="85px" height="68px" src="assets/f-icons/f3.png" />
+          <mj-text>
+            <p class="statistics-caption" style="text-align: center !important">
+              Unlimited users
+              and data
+              storage
+
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Features -->
+      <mj-section css-class="section">
+        <mj-column>
+          <mj-image width="64px" height="68px" src="assets/f-icons/f4.png" />
+          <mj-text>
+            <p class="statistics-caption">
+              Operational costs optimisation
+            </p>
+          </mj-text>
+        </mj-column>
+
+        <mj-column>
+          <mj-image width="79px" height="68px" src="assets/f-icons/f5.png" />
+          <mj-text>
+            <p class="statistics-caption">
+              Fast Return-on-investment
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Image 1 + Button -->
+      <mj-section css-class="section statistics-image">
+        <mj-column>
+          <mj-spacer height="24px" />
+          <mj-image width="600px" src="assets/features.png" />
+          <mj-spacer height="40px" />
+
+          <mj-button mj-class="body-btn" href="https://go.otasync.me/ue2Jb" font-family="Poppins" background-color="#3D8BE2" color="white" font-weight="600" font-size="30px" inner-padding="18px 36px" border="2px solid #ffffff" border-radius="10px">
+            Start Free Now
+          </mj-button>
+
+          <mj-spacer height="85px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Title 2 -->
+      <mj-section css-class="section title-wrap">
+        <mj-column>
+          <mj-text>
+            <h1 class="h2">
+              Booking engine – increase your revenue
+            </h1>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-spacer height="72px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Features 2 -->
+      <mj-section css-class="section">
+        <mj-column>
+          <mj-image width="42px" height="71px" src="assets/f-icons/f6.png" />
+          <mj-text>
+            <p class="statistics-caption">
+              Get direct reservations
+            </p>
+          </mj-text>
+        </mj-column>
+
+        <mj-column>
+          <mj-image width="60px" height="71px" src="assets/f-icons/f7.png" />
+          <mj-text>
+            <p class="statistics-caption">
+              High Return-on-investment
+            </p>
+          </mj-text>
+        </mj-column>
+
+        <mj-column>
+          <mj-image width="72px" height="71px" src="assets/f-icons/f8.png" />
+          <mj-text>
+            <p class="statistics-caption" style="text-align: center !important">
+              Commision-free bookings
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Features 2 -->
+      <mj-section css-class="section">
+        <mj-column>
+          <mj-image width="63px" height="71px" src="assets/f-icons/f9.png" />
+          <mj-text>
+            <p class="statistics-caption">
+              Loyalty program
+            </p>
+          </mj-text>
+        </mj-column>
+
+        <mj-column>
+          <mj-image width="66px" height="71px" src="assets/f-icons/f10.png" />
+          <mj-text>
+            <p class="statistics-caption">
+              Upselling & connection with major payment processors
+            </p>
+          </mj-text>
+        </mj-column>
+
+        <mj-column>
+          <mj-image width="64px" height="71px" src="assets/f-icons/f11.png" />
+          <mj-text>
+            <p class="statistics-caption" style="text-align: center !important">
+              Free connection with Google Hotels
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Image 2 -->
+      <mj-section css-class="section statistics-image">
+        <mj-column>
+          <mj-spacer height="24px" />
+          <mj-image width="414px" src="assets/features2.png" />
+          <mj-spacer height="85px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Title 3 -->
+      <mj-section css-class="section title-wrap">
+        <mj-column>
+          <mj-text>
+            <h1 class="h2">
+              Reach better occupancy with the Channel Manager
+            </h1>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-spacer height="72px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Features 3 -->
+      <mj-section css-class="section">
+        <mj-column>
+          <mj-image width="63px" height="67px" src="assets/f-icons/f12.png" />
+          <mj-text>
+            <p class="statistics-caption">
+              Connect and sync your OTA’s
+            </p>
+          </mj-text>
+        </mj-column>
+
+        <mj-column>
+          <mj-image width="64px" height="67px" src="assets/f-icons/f13.png" />
+          <mj-text>
+            <p class="statistics-caption">
+              Manage all channels in one click
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Features 3 -->
+      <mj-section css-class="section">
+        <mj-column>
+          <mj-image width="49px" height="67px" src="assets/f-icons/f14.png" />
+          <mj-text>
+            <p class="statistics-caption">
+              No more overbookings
+            </p>
+          </mj-text>
+        </mj-column>
+
+        <mj-column>
+          <mj-image width="64px" height="67px" src="assets/f-icons/f15.png" />
+          <mj-text>
+            <p class="statistics-caption">
+              Update all prices, restrictions and special offers through our PMS
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-spacer height="32px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Title 4 -->
+      <mj-section css-class="section title-wrap">
+        <mj-column>
+          <mj-text>
+            <h1 class="h2">
+              Mobile Application
+            </h1>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-spacer height="72px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Features 4 -->
+      <mj-section css-class="section">
+        <mj-column>
+          <mj-image width="64px" height="67px" src="assets/f-icons/f16.png" />
+          <mj-text>
+            <p class="statistics-caption">
+              Monitor your Accommodation from anywhere
+            </p>
+          </mj-text>
+        </mj-column>
+
+        <mj-column>
+          <mj-image width="45px" height="67px" src="assets/f-icons/f17.png" />
+          <mj-text>
+            <p class="statistics-caption">
+              Android & iOS
+            </p>
+          </mj-text>
+        </mj-column>
+
+        <mj-column>
+          <mj-image width="67px" height="67px" src="assets/f-icons/f18.png" />
+          <mj-text>
+            <p class="statistics-caption">
+              24/7 customer support
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Image 1 + Button -->
+      <mj-section css-class="section statistics-image">
+        <mj-column>
+          <mj-spacer height="40px" />
+          <mj-image width="329px" src="assets/phone.png" />
+          <mj-spacer height="20px" />
+          <mj-button mj-class="body-btn" href="https://go.otasync.me/ue2Jb" font-family="Poppins" background-color="#3D8BE2" color="white" font-weight="600" font-size="30px" inner-padding="18px 36px" border="2px solid #ffffff" border-radius="10px">
+            Like Try Now
+          </mj-button>
+
+          <mj-spacer height="85px" />
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Title 5 + subtitle -->
+      <mj-section css-class="section title-wrap">
+        <mj-column>
+          <mj-text>
+            <h1 class="h2">
+              Mobile Application
+            </h1>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-spacer height="72px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Features-text -->
+      <mj-section css-class="section">
+        <mj-column>
+          <mj-text>
+            <p class="subtitle">
+              <span style="color: #5288C4">1500 +</span> properties
+            </p>
+          </mj-text>
+          <mj-spacer height="32px" />
+        </mj-column>
+      </mj-section>
+
+
+      <!-- Properties 0 -->
+      <mj-section css-class="section">
+      </mj-section>
+
+      <!-- Properties 1 -->
+      <mj-section css-class="section">
+      </mj-section>
+
+      <!-- Properties 2 -->
+      <mj-section css-class="section">
+      </mj-section>
+
+      <!-- Footer info -->
+      <mj-section css-class="section">
+      </mj-section>
+
+      <!-- Footer buttons + socials -->
+      <mj-section css-class="section">
+      </mj-section>
+
+    </mj-wrapper>
+</mjml>
